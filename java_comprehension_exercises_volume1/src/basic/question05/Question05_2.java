@@ -10,11 +10,7 @@ public class Question05_2 {
 
 	public static void main(String[] args) throws IOException {
 
-		int[] numberGroup = new int[4];
-		numberGroup[0] = 3;
-		numberGroup[1] = 5;
-		numberGroup[2] = 7;
-		numberGroup[3] = 9;
+		int[] numberGroup = { 3, 5, 7, 9 };
 
 		if (numberGroup[3] == 3) {
 			System.out.println("4番目の要素の値は3です。");
